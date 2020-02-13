@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Post A Message
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="secondary">
+
+  <ion-card-content>
+    <ion-item color="tertiary">
+      <ion-label position="stacked">
+        What's on your mind?
+      </ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+
+    <ion-button (click)="sendMessage()" expand="block" color="primary">Post</ion-button>
+    <img src="{{'assets/bonfire.gif'}}">
+
+  </ion-card-content>
+</ion-content>
